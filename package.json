@@ -1,0 +1,17 @@
+{
+  "name": "nodesnippets",
+  "version": "1.0.0",
+  "description": "npm test ./sum/sum.test\r npm test ./testall/visa.test",
+  "main": "console.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.427.0",
+    "express": "^4.16.4",
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {}
+}
