@@ -8,8 +8,10 @@ function frequenciesword(){
 	var res = Object.keys(unordered).sort(function (a,b){return b-a;}).forEach(function (key,index){
 		ordered [key] = unordered[key];
 	});
-	return res;
+	return ordered;
 }
+
+console.log(frequenciesword());
 module.exports = frequenciesword;
 	
 
